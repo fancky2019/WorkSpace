@@ -37,7 +37,7 @@
             targetPackage     指定生成的model生成所在的包名
             targetProject     指定在该项目下所在的路径
         -->
-        <javaModelGenerator targetPackage="com.fancky.multipledatasource.model.entity.demo"
+        <javaModelGenerator targetPackage="com.fancky.multipledatasource.model.entity.test"
                             targetProject="src/main/java">
 
             <!-- 是否允许子包，即targetPackage.schemaName.tableName -->
@@ -52,7 +52,7 @@
 
         <!--Mapper映射文件生成所在的目录 为每一个数据库的表生成对应的SqlMap文件 -->
         <!--生成映射文件mapper存放位置-->
-        <sqlMapGenerator targetPackage="mapper/demo"
+        <sqlMapGenerator targetPackage="mapper/test"
                          targetProject="src/main/resources" >
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
@@ -63,7 +63,7 @@
                 type="XMLMAPPER",生成SQLMap XML文件和独立的Mapper接口
         -->
         <!--生成Dao类存放位置-->
-        <javaClientGenerator targetPackage="com.fancky.multipledatasource.dao.demo"
+        <javaClientGenerator targetPackage="com.fancky.multipledatasource.dao.test"
                              targetProject="src/main/java" type="XMLMAPPER"  >
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
@@ -71,7 +71,7 @@
         <!--tableName:指定了表名
             domainObjectName:指定了实体类的名称
         -->
-        <table tableName="user" domainObjectName="User"
+        <table tableName="job" domainObjectName="Job"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
