@@ -1,9 +1,7 @@
 package com.fancky.multipledatasource.controller;
 
-import com.fancky.multipledatasource.model.entity.demo.User;
 import com.fancky.multipledatasource.model.entity.test.Job;
 import com.fancky.multipledatasource.model.viewmodel.MessageResult;
-import com.fancky.multipledatasource.service.UserService;
 import com.fancky.multipledatasource.service.test.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

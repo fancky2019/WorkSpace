@@ -1,5 +1,7 @@
 package com.fancky.multipledatasource.configuration;
 
+import com.atomikos.jdbc.AtomikosDataSourceBean;
+import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
@@ -13,20 +15,12 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
+import java.sql.SQLException;
 
 @Configuration
 //指定该SqlSession对象对应的dao(basePackages , dao扫包  sqlSessionFactoryRef: SqlSessionFactory对象注入到该变量中)
 @MapperScan(basePackages = "com.fancky.multipledatasource.dao.demo", sqlSessionFactoryRef = "demoSqlSessionFactory")
 public class DemoDataSourceConfig {
-    /**
-     * 封装数据源对象创建, 该方法就已经将数据源的各个数据封装到该对象中
-     * @return
-     */
-    @Bean(name = "demoDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.demo") //读取的数据源前缀, 跟yml文件对应
-    public DataSource demoDataSource(){
-        return DataSourceBuilder.create().build();
-    }
 
     /**
      * SqlSession对象创建
@@ -49,4 +43,41 @@ public class DemoDataSourceConfig {
     public SqlSessionTemplate demoSqlSessionTemplate(@Qualifier("demoSqlSessionFactory") SqlSessionFactory sessionfactory) {
         return new SqlSessionTemplate(sessionfactory);
     }
+
+
+//    /**
+//     * 封装数据源对象创建, 该方法就已经将数据源的各个数据封装到该对象中
+//     * @return
+//     */
+//    @Bean(name = "demoDataSource")
+//    @ConfigurationProperties(prefix = "spring.datasource.demo") //读取的数据源前缀, 跟yml文件对应
+//    public DataSource demoDataSource(){
+//        return DataSourceBuilder.create().build();
+//    }
+
+    @Bean(name = "demoDataSource")
+    public DataSource testDataSource(DemoDataSourceConfigParameters demoConfig) throws SQLException {
+        MysqlXADataSource mysqlXaDataSource = new MysqlXADataSource();
+        mysqlXaDataSource.setUrl(demoConfig.getJdbcUrl());
+        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
+        mysqlXaDataSource.setPassword(demoConfig.getPassword());
+        mysqlXaDataSource.setUser(demoConfig.getUsername());
+        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
+
+        AtomikosDataSourceBean xaDataSource = new AtomikosDataSourceBean();
+        xaDataSource.setXaDataSource(mysqlXaDataSource);
+        xaDataSource.setUniqueResourceName("demoDataSource");
+
+        xaDataSource.setMinPoolSize(demoConfig.getMinPoolSize());
+        xaDataSource.setMaxPoolSize(demoConfig.getMaxPoolSize());
+        xaDataSource.setMaxLifetime(demoConfig.getMaxLifetime());
+        xaDataSource.setBorrowConnectionTimeout(demoConfig.getBorrowConnectionTimeout());
+        xaDataSource.setLoginTimeout(demoConfig.getLoginTimeout());
+        xaDataSource.setMaintenanceInterval(demoConfig.getMaintenanceInterval());
+        xaDataSource.setMaxIdleTime(demoConfig.getMaxIdleTime());
+        xaDataSource.setTestQuery(demoConfig.getTestQuery());
+        return xaDataSource;
+    }
+
+
 }
