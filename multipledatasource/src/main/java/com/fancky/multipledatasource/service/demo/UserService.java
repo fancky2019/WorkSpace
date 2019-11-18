@@ -1,4 +1,4 @@
-package com.fancky.multipledatasource.service;
+package com.fancky.multipledatasource.service.demo;
 
 import com.fancky.multipledatasource.dao.demo.UserMapper;
 import com.fancky.multipledatasource.model.entity.demo.User;

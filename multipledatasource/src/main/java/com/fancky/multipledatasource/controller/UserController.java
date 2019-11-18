@@ -2,7 +2,7 @@ package com.fancky.multipledatasource.controller;
 
 import com.fancky.multipledatasource.model.entity.demo.User;
 import com.fancky.multipledatasource.model.viewmodel.MessageResult;
-import com.fancky.multipledatasource.service.UserService;
+import com.fancky.multipledatasource.service.demo.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,5 +24,6 @@ public class UserController {
     public MessageResult<Void> insertUser(@RequestBody User user) {
         return userService.insert(user);
     }
+
 
 }
