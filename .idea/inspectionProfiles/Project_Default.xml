@@ -5,6 +5,7 @@
     <inspection_tool class="ConfigurationProperties" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="ContextComponentScanInconsistencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="ContextJavaBeanUnresolvedMethodsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Duplicates" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="FlowRequiredBeanTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="InjectionValueTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JdkProxiedBeanTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
