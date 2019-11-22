@@ -15,15 +15,18 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("")
-    public String index()
-    {
-        
+    public String index() {
+
         return "hello world";
     }
+
     @PostMapping("/insertUser")
     public MessageResult<Void> insertUser(@RequestBody User user) {
         return userService.insert(user);
     }
 
-
+    @GetMapping("/login")
+    public void login(@RequestParam("name") String userName, @RequestParam("password") String password) {
+        Integer m = 0;
+    }
 }
