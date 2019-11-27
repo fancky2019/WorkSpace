@@ -1,4 +1,4 @@
 target/
 transaction-logs/
 *.log
-/.gz
+/*.gz
