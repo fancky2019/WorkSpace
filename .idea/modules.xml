@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/WorkSpace.iml" filepath="$PROJECT_DIR$/.idea/WorkSpace.iml" />
       <module fileurl="file://$PROJECT_DIR$/empty/empty.iml" filepath="$PROJECT_DIR$/empty/empty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inspiniabasic/inspiniabasic.iml" filepath="$PROJECT_DIR$/inspiniabasic/inspiniabasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/multipledatasource/multipledatasource.iml" filepath="$PROJECT_DIR$/multipledatasource/multipledatasource.iml" />
     </modules>
   </component>
