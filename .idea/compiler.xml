@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="inspiniabasic" />
         <module name="empty" />
         <module name="multipledatasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="empty" target="1.8" />
+      <module name="inspiniabasic" target="1.8" />
       <module name="multipledatasource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="empty" options="-parameters" />
+      <module name="inspiniabasic" options="-parameters" />
       <module name="multipledatasource" options="-parameters" />
     </option>
   </component>
