@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/empty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/empty/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inspiniabasic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/bootstrap.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/inspinia.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/jquery-3.1.1.min.js" charset="GBK" />
@@ -10,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/jquery.slimscroll.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/popper.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/multipledatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multipledatasource/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f67fb19-ecfa-4eb5-a1e2-d962b4c21c85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/empty/target/" />
-    <ignored path="$PROJECT_DIR$/multipledatasource/target/" />
-    <ignored path="$PROJECT_DIR$/inspiniabasic/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,118 +49,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="WorkSpace" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/UserManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/FileUpLoadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/AccountManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/TPCController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/InspiniabasicApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/fileupload/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10600">
-              <caret line="424" column="44" selection-start-line="424" selection-start-column="44" selection-end-line="424" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/tps/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10600">
-              <caret line="424" column="44" selection-start-line="424" selection-start-column="44" selection-end-line="424" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/usermanager/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10625">
-              <caret line="425" selection-start-line="425" selection-end-line="425" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -163,196 +70,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/empty/src/main/java/com/example/empty/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/empty/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/resources/mapper/demo/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/model/viewmodel/MessageResult.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/UserService.java" />
-        <option value="$PROJECT_DIR$/empty/pom.xml" />
-        <option value="$PROJECT_DIR$/empty/src/main/java/com/example/empty/dao/PersonMapper.java" />
-        <option value="$PROJECT_DIR$/empty/src/main/java/com/example/empty/service/UserService.java" />
-        <option value="$PROJECT_DIR$/empty/src/main/java/com/example/empty/dao/demo/PersonMapper.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/dao/demo/UserMapper.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/resources/mybatisGenerator.properties" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/resources/mybatisGeneratorConfig.xml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/test/JobService.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/dao/test/JobMapper.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/resources/mapper/test/JobMapper.xml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/controller/JobController.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/demo/UserService.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/MultipleDataSourceApplication.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfigParameters.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfigParameters.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/model/viewmodel/UserJobVM.java" />
-        <option value="$PROJECT_DIR$/transaction-logs/tmlog17.log" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/MultipleDataSourceService.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/CORSConfig.java" />
-        <option value="$PROJECT_DIR$/multipledatasource/pom.xml" />
-        <option value="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/controller/MultipleDataSourceController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/static/css/basic/style.css" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/vo/MessageResult.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/vo/PageData.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/po/User.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/po/Menus.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/UserManagerController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/TPSController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/SystemManagerController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/OCGController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/TPCController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/FileUpLoadController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/AccountManagerController.java" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/home/index.html" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/accountmanager/index.html" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/fileupload/index.html" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/tps/index.html" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/usermanager/index.html" />
-        <option value="$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/menu.js" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MultipleDataSource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MultipleDataSource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MultipleDataSource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="566" />
-    <option name="y" value="137" />
-    <option name="width" value="1470" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fancky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fancky" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fancky" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="inspiniabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1koFdoy6xUuBskKAUxO4HrWMDu3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -364,15 +92,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaDemos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\templates" />
+      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\static\css\basic" />
+      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.empty.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\templates\usermanager" />
       <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\templates\tps" />
@@ -380,28 +116,19 @@
       <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\templates\fileupload" />
       <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\static\js\basic" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.empty.dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\templates" />
-      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\static\css\basic" />
-      <recent name="D:\fancky\Git\Java\WorkSpace\inspiniabasic\src\main\resources\static\css" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InspiniabasicApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmptyFrameworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="empty" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.empty.EmptyFrameworkApplication" />
@@ -435,6 +162,7 @@
       <item itemvalue="Spring Boot.InspiniabasicApplication" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -469,62 +197,89 @@
       <workItem from="1594107855197" duration="105000" />
       <workItem from="1594963078925" duration="1243000" />
       <workItem from="1597307738544" duration="1330000" />
+      <workItem from="1606359131342" duration="961000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110334000" />
-  </component>
-  <component name="TodoView" selected-index="3">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19722815" />
-      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.19509594" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.19509594" />
-      <window_info id="Web" order="7" sideWeight="0.50080776" side_tool="true" weight="0.19509594" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38894907" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.28784648" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.1391258" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606359579669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606359579669" />
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606359578328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606359578328" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606359227560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606359227560" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1606360103675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103675" />
+    <state width="1877" height="337" key="GridCell.Tab.2.bottom" timestamp="1606360103670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103670" />
+    <state width="1877" height="337" key="GridCell.Tab.2.center" timestamp="1606360103670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103670" />
+    <state width="1877" height="337" key="GridCell.Tab.2.left" timestamp="1606360103670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103670" />
+    <state width="1877" height="337" key="GridCell.Tab.2.right" timestamp="1606360103670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606360103670" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1606359563064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606359563064" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,8 +287,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/empty/src/main/java/com/example/empty/controller/UserController.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inspiniabasic/src/test/java/com/fancky/inspiniabasic/InspiniabasicApplicationTests.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -544,463 +303,5 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WorkSpace$EmptyFrameworkApplication.ic" NAME="EmptyFrameworkApplication Coverage Results" MODIFIED="1573716287428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/controller/JobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfigParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/MultipleDataSourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/resources/mapper/demo/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/MultipleDataSourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/service/demo/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#insert#0;n#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/dao/demo/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/dao/test/JobMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfigParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multipledatasource/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/empty/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/inspinia.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/jquery.metisMenu.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/jquery.slimscroll.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/plugins/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/css/bootstrap/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/fa-brands.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/fa-solid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/fa-regular.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/fontawesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/font-awesome/css/fontawesome-all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/target/classes/static/js/basic/pace.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/css/basic/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25200">
-          <caret line="1008" column="12" selection-start-line="1008" selection-start-column="12" selection-end-line="1008" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/vo/MessageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/vo/PageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/pace.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="102" selection-start-line="1" selection-start-column="102" selection-end-line="1" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/img/cat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/model/po/Menus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/TPSController.java" />
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/OCGController.java" />
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8475">
-          <caret line="412" selection-start-line="412" selection-end-line="424" selection-end-column="44" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/static/js/basic/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="213" column="34" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/accountmanager/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10600">
-          <caret line="424" column="44" selection-start-line="424" selection-start-column="44" selection-end-line="424" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/InspiniabasicApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/fileupload/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10600">
-          <caret line="424" column="44" selection-start-line="424" selection-start-column="44" selection-end-line="424" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/tps/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10600">
-          <caret line="424" column="44" selection-start-line="424" selection-start-column="44" selection-end-line="424" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/resources/templates/usermanager/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10625">
-          <caret line="425" selection-start-line="425" selection-end-line="425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/UserManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/TPCController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/FileUpLoadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/AccountManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inspiniabasic/src/main/java/com/fancky/inspiniabasic/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>empty</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
