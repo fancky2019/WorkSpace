@@ -21,7 +21,7 @@ import java.sql.SQLException;
 //指定该SqlSession对象对应的dao(basePackages , dao扫包  sqlSessionFactoryRef: SqlSessionFactory对象注入到该变量中)
 @MapperScan(basePackages = "com.fancky.multipledatasource.dao.test", sqlSessionFactoryRef = "testSqlSessionFactory")
 public class TestDataSourceConfig {
-   // TestDataSourceConfig
+    // TestDataSourceConfig
 //    /**
 //     * 封装数据源对象创建, 该方法就已经将数据源的各个数据封装到该对象中
 //     *
@@ -62,7 +62,6 @@ public class TestDataSourceConfig {
     }
 
 
-
     @Bean(name = "testDataSource")
     public DataSource testDataSource(TestDataSourceConfigParameters testConfig) throws SQLException {
         MysqlXADataSource mysqlXaDataSource = new MysqlXADataSource();
@@ -86,9 +85,6 @@ public class TestDataSourceConfig {
         xaDataSource.setTestQuery(testConfig.getTestQuery());
         return xaDataSource;
     }
-
-
-
 
 
 }

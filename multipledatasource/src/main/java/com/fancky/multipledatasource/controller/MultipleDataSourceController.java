@@ -39,7 +39,7 @@ public class MultipleDataSourceController {
 
     @PostMapping("/insertAll")
     public MessageResult<Void> insertAll(@RequestBody UserJobVM userJobVM) {
-        return multipleDataSourceService.insertAll(userJobVM.getUser(),userJobVM.getJob());
+        return multipleDataSourceService.insertAll(userJobVM.getUser(), userJobVM.getJob());
     }
 
 }

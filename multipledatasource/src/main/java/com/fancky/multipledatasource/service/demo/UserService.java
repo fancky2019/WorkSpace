@@ -21,7 +21,7 @@ public class UserService {
  */
     @Transactional(rollbackFor = Exception.class)
     public MessageResult<Void> insert(User user) {
-        MessageResult<Void> messageResult =new MessageResult<>();
+        MessageResult<Void> messageResult = new MessageResult<>();
         try {
 //                OrderDetail orderDetail=new OrderDetail();
 //                orderDetail.setOrderid(order.getId());

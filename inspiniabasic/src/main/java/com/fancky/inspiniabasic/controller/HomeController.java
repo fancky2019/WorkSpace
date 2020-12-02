@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.fancky.inspiniabasic.model.po.*;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -42,7 +43,7 @@ public class HomeController {
 
     @RequestMapping("/getMenus")
     @ResponseBody
-    public List<Menus> getMenus( User user) {
+    public List<Menus> getMenus(User user) {
         List<Menus> list = new ArrayList<Menus>();
         Menus menu = new Menus();
         menu.setId(1);

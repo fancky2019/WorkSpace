@@ -3,7 +3,8 @@ package com.fancky.multipledatasource.configuration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component// 去掉启动类的注解@EnableConfigurationProperties(value = {TestDataSourceConfigParameters.class, DemoDataSourceConfigParameters.class})
+@Component
+// 去掉启动类的注解@EnableConfigurationProperties(value = {TestDataSourceConfigParameters.class, DemoDataSourceConfigParameters.class})
 //作用是将配置文件转换成类对象，便于修改或者获取值
 @ConfigurationProperties(prefix = "spring.datasource.demo")
 public class DemoDataSourceConfigParameters {

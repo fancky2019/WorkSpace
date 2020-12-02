@@ -15,8 +15,7 @@ public class JobController {
     private JobService jobService;
 
     @GetMapping("")
-    public String index()
-    {
+    public String index() {
         return "hello world";
     }
 

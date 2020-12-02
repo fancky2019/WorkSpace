@@ -20,7 +20,7 @@ from origin 'http://localhost:63342' has been blocked by CORS policy: The 'Acces
 public class CORSConfig {
     //此种设置有弊端：拦截器中存在跨域有问题，还要再设置 response.setHeader("Access-Control-Allow-Origin", "*");
     //跨域配置
-   // @Bean
+    // @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
 
@@ -34,12 +34,12 @@ public class CORSConfig {
                         //是否发送Cookie信息
                         .allowCredentials(true)
                         //放行哪些原始域(请求方式)
-                        .allowedMethods("GET", "POST", "PUT", "DELETE"," PATCH")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", " PATCH")
                         //放行哪些原始域(头部信息)
                         .allowedHeaders("*")
                         .maxAge(3600)
                         //暴露哪些头部信息（因为跨域访问默认不能获取全部头部信息）
-                        .exposedHeaders("Header1", "Header2","REDIRECT","Location");
+                        .exposedHeaders("Header1", "Header2", "REDIRECT", "Location");
             }
         };
     }
