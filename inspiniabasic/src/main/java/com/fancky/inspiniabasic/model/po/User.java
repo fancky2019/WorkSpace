@@ -1,7 +1,7 @@
 package com.fancky.inspiniabasic.model.po;
 
 public class User {
-    public String userName ;
+    public String userName;
     public String password;
 
     public String getUserName() {

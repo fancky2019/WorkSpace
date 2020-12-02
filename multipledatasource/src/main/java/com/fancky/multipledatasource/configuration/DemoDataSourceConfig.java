@@ -23,10 +23,11 @@ import java.sql.SQLException;
 @MapperScan(basePackages = "com.fancky.multipledatasource.dao.demo", sqlSessionFactoryRef = "demoSqlSessionFactory")
 public class DemoDataSourceConfig {
 
-  //  HikariDataSource
+    //  HikariDataSource
 
     /**
      * SqlSession对象创建
+     *
      * @param dataSource
      * @return
      * @throws Exception
@@ -40,7 +41,7 @@ public class DemoDataSourceConfig {
         bean.setDataSource(dataSource);
         //指定该SqlSession对应的mapper.xml文件位置
         bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/demo/*.xml"));
-        SqlSessionFactory sqlSessionFactory =bean.getObject();
+        SqlSessionFactory sqlSessionFactory = bean.getObject();
         return sqlSessionFactory;
     }
 

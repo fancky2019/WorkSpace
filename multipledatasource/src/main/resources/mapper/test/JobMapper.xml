@@ -2,18 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fancky.multipledatasource.dao.test.JobMapper">
 
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.fancky.multipledatasource.model.entity.test.Job">
-    select *
-    from job
-    where ID = #{id,jdbcType=INTEGER}
-  </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from job
-    where ID = #{id,jdbcType=INTEGER}
-  </delete>
-  <insert id="insert" parameterType="com.fancky.multipledatasource.model.entity.test.Job">
-    insert into job (ID, JobName)
-    values (#{id,jdbcType=INTEGER}, #{jobname,jdbcType=VARCHAR})
-  </insert>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer"
+            resultType="com.fancky.multipledatasource.model.entity.test.Job">
+        select *
+        from job
+        where ID = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from job
+        where ID = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.fancky.multipledatasource.model.entity.test.Job">
+        insert into job (ID, JobName)
+        values (#{id,jdbcType=INTEGER}, #{jobname,jdbcType=VARCHAR})
+    </insert>
 
 </mapper>

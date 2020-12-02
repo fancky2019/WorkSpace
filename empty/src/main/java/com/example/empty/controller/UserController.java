@@ -17,10 +17,10 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("")
-    public String index()
-    {
+    public String index() {
         return "hello world";
     }
+
     @PostMapping("/insertUser")
     public MessageResult<Void> insertUser(@RequestBody Person person) {
         return userService.insert(person);

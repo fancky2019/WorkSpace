@@ -23,7 +23,7 @@ public class JobService {
  */
     @Transactional(rollbackFor = Exception.class)
     public MessageResult<Void> insert(Job job) {
-        MessageResult<Void> messageResult =new MessageResult<>();
+        MessageResult<Void> messageResult = new MessageResult<>();
         try {
 //                OrderDetail orderDetail=new OrderDetail();
 //                orderDetail.setOrderid(order.getId());

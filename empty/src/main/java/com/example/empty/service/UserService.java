@@ -24,7 +24,6 @@ public class UserService {
     }
 
 
-
     /*
 自动回滚
 @Transactional默认只回滚RunTimeException级别，
@@ -33,7 +32,7 @@ public class UserService {
  */
     @Transactional(rollbackFor = Exception.class)
     public MessageResult<Void> insert(Person person) {
-        MessageResult<Void> messageResult =new MessageResult<>();
+        MessageResult<Void> messageResult = new MessageResult<>();
         try {
 //                OrderDetail orderDetail=new OrderDetail();
 //                orderDetail.setOrderid(order.getId());

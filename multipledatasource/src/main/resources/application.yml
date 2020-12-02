@@ -1,4 +1,3 @@
-
 server:
   port: 8101
 #公共配置与profiles选择无关 mapperLocations指的路径是src/main/resources
@@ -72,12 +71,12 @@ spring:
     #  1）如果classpath中有HikariCP，优先选择它
     #  2）如果Tomcat pooling 连接池可用，就会选择它
     #  3）如果以上都没有，则会选择Commons DBCP2连接池
-#    dbcp2:
-#      test-on-borrow: true
-#      validation-query: SELECT 1
-#      time-between-eviction-runs-millis: 300000
-#      min-evictable-idle-time-millis: 1800000
-#      test-while-idle: true
+    #    dbcp2:
+    #      test-on-borrow: true
+    #      validation-query: SELECT 1
+    #      time-between-eviction-runs-millis: 300000
+    #      min-evictable-idle-time-millis: 1800000
+    #      test-while-idle: true
     # HikariCP： springboot2.0 默认的连接池。https://github.com/brettwooldridge/HikariCP
     #HikariCP  高并发性能优。mysql 8h 空闲断开连接可用quartz 调度定期select 1  。
     #产生此问题DB工作就不繁忙，性能要求不高。可以用上面dbcp2的配置，采取空闲查询策略。
