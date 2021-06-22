@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f67fb19-ecfa-4eb5-a1e2-d962b4c21c85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multipledatasource/src/main/resources/mybatisGeneratorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/multipledatasource/src/main/resources/mybatisGeneratorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/DemoDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multipledatasource/src/main/java/com/fancky/multipledatasource/configuration/TestDataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +186,9 @@
       <workItem from="1610938335601" duration="15000" />
       <workItem from="1610938378882" duration="19000" />
       <workItem from="1610949290666" duration="8000" />
+      <workItem from="1612666312457" duration="623000" />
+      <workItem from="1617001652383" duration="32000" />
+      <workItem from="1624326286068" duration="843000" />
     </task>
     <servers />
   </component>
