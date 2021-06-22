@@ -18,6 +18,9 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
+/*
+为指定包下的Mapper指定dataSource，从而达到操作对应数据源的目的
+ */
 @Configuration
 //指定该SqlSession对象对应的dao(basePackages , dao扫包  sqlSessionFactoryRef: SqlSessionFactory对象注入到该变量中)
 @MapperScan(basePackages = "com.fancky.multipledatasource.dao.demo", sqlSessionFactoryRef = "demoSqlSessionFactory")
